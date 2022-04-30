@@ -67,7 +67,7 @@ public class Car {
 	}
 
 	public Car() {
-		super();
+		
 	}
 	
 }

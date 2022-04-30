@@ -13,14 +13,15 @@ public class ApplicationController {
 	private myRepo repo;
 	
 	@GetMapping("")
-	public String viewHome()
-	{
-		return "home";
-	}
-	@PostMapping("")
-	public String sendData(@ModelAttribute Car car, Model model)
+	public String viewHome(Model model)
 	{
 		model.addAttribute("car", new Car());
-		return "result";
+		return "home";
 	}
+//	@PostMapping("")
+	//public String sendData(@ModelAttribute Car car, Model model)
+	//{
+		//model.addAttribute("car", new Car());
+	//	return "result";
+//	}
 }

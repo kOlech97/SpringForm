@@ -10,7 +10,10 @@
   <body>
     <h1>Welcome!</h1>
     <div id="container">
-    	<form action="#" th:action="@{/result}" th:object="${car}" method="post">
+    	<form action="#" th:action="@{/home}" th:object="${car}" method="post">
+    	<input type="text" th:field="*{make}" class="form-control">
+                        
+    	</form>
     </div>
   </body>
 </html>
