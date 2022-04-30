@@ -12,16 +12,18 @@ public class ApplicationController {
 	@Autowired
 	private myRepo repo;
 	
-	@GetMapping("")
+@GetMapping("")
 	public String viewHome(Model model)
 	{
 		model.addAttribute("car", new Car());
 		return "home";
 	}
-//	@PostMapping("")
-	//public String sendData(@ModelAttribute Car car, Model model)
-	//{
-		//model.addAttribute("car", new Car());
-	//	return "result";
+	@PostMapping("/result")
+	public String sendData(Car car)
+	{
+		repo.save(car);
+		return "home";
+	}
+		
 //	}
 }

@@ -58,16 +58,6 @@ public class Car {
 		this.problem = problem;
 	}
 
-	public Car(Long id, String make, String car_model, String problem) {
-		super();
-		this.id = id;
-		this.make = make;
-		this.car_model = car_model;
-		this.problem = problem;
-	}
-
-	public Car() {
-		
-	}
+	
 	
 }
