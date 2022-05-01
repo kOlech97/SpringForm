@@ -1,5 +1,5 @@
 # SpringForm
-Website is collecting 3 informations from the user, and sends it to the database. Tech stack: Spring Boot/data JPA/thymeleaf/html/bootstrap
+Website is collecting 3 informations from the user, and sends it to the database. Tech stack: Spring Boot/hibernate/thymeleaf
 ![springFormScreenShot](https://user-images.githubusercontent.com/94390214/166113863-b4625fc4-4240-4418-bf7d-199c75fb5d16.PNG)
 
 
